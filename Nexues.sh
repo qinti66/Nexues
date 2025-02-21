@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e  # 遇到错误时终止脚本执行
+set -e  # 遇到错误时终止脚本执行即可
 
 echo "📦 更新系统并安装必要的软件包..."
 sudo apt update && sudo DEBIAN_FRONTEND=noninteractive apt upgrade -yq
